@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response, Router } from 'express';
-import { ticketManager } from 'src/component/ticket';
+import { ticketManager } from '@components/ticket';
 
 // Export the base-router
 const baseRouter = Router();

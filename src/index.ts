@@ -2,7 +2,7 @@ import './pre-start'; // Must be the first import
 import app from '@server';
 import logger from '@shared/Logger';
 import { Server, Socket } from 'socket.io';
-import { joinChannel, socketHandler } from './component/counter';
+import { joinChannel, socketHandler } from '@components/counter';
 
 // Start the server
 const port = Number(process.env.PORT || 3000);

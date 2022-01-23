@@ -19,6 +19,11 @@
     ],
     "exec": "./node_modules/.bin/ts-node -r tsconfig-paths/register ./src"
   },
+  "_moduleAliases": {
+    "@components": "dist/component",
+    "@shared": "dist/shared",
+    "@server": "dist/Server"
+  },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
     "plugins": [

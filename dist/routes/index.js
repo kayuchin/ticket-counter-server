@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const ticket_1 = require("src/component/ticket");
+const ticket_1 = require("@components/ticket");
 // Export the base-router
 const baseRouter = (0, express_1.Router)();
 baseRouter.get('/get-ticket', (req, res, next) => {
