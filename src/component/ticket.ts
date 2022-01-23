@@ -1,7 +1,7 @@
 import Queue from "./queue";
 
 const ticketQ: Queue = new Queue();
-let ticketNum: number = 0;
+let ticketNum = 0;
 
 export const ticketManager = {
     getTicket: () => {
